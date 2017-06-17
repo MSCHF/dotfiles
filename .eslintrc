@@ -27,7 +27,6 @@
     "no-invalid-regexp": 2,       // disallow invalid regular expression strings in the RegExp constructor
     "no-irregular-whitespace": 2, // disallow irregular whitespace outside of strings and comments
     "no-regex-spaces": 2,         // disallow multiple spaces in a regular expression literal
-    "no-reserved-keys": 1,        // disallow reserved words being used as object literal keys (off by default)
     "no-unreachable": 2,          // disallow unreachable statements after a return, throw, continue, or break statement
     "valid-jsdoc": 1,             // Ensure JSDoc comments are valid (off by default)
     "valid-typeof": 2,            // Ensure that the results of typeof are compared against a valid string
@@ -97,11 +96,9 @@
     "padded-blocks": 1,             // enforce padding within blocks (off by default)
     "quote-props": [1, "as-needed"],               // require quotes around object literal property names (off by default)
     "semi": [2, "always"],                      // require or disallow use of semicolons instead of ASI
-    "space-in-brackets": [1, "never"],         // require or disallow spaces inside brackets (off by default)
     "space-infix-ops": [2, {"int32Hint": false}],           // require spaces around operators
 
     ////////// ECMAScript 6 //////////
     "no-var": 2,          // require let or const instead of var (off by default)
-    "generator-star": 1,  // enforce the position of the * in generator functions (off by default)
   }
 }
